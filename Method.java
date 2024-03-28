@@ -1,5 +1,5 @@
 public class Method {
-    public static void main(System.in){
+    public static void main(String[] args){
         System.out.println("Welcome!");
     }
     
