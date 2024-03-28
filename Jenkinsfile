@@ -11,7 +11,7 @@ pipeline{
             steps{
                 script {
                   bat 'javac Main.java'
-                    bat 'javac Method.java'
+                   
                 }
             }
         }
@@ -19,7 +19,7 @@ pipeline{
             steps{
                 script{
                     bat 'java Main'
-                    bat 'java Method'
+                   
                 }
             }
         }
